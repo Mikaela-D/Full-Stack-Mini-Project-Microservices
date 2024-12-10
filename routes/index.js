@@ -15,6 +15,7 @@ let meetingSchema = new Schema(
     price: Number,
     category: String,
     description: String,
+    quantity: Number,
   },
   { collection: "meetings" }
 );
